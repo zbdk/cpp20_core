@@ -140,6 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cpp20_core.cpp" />
+    <ClCompile Include="module\module_main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="module\module_main.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
