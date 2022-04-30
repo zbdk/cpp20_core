@@ -6,7 +6,11 @@ module ModuleA;
 
 namespace module_a {
 	void func() {
-		std::cout << "ModuleA::func()" << std::endl;
+		int num = 0;
+
+		num += get_part1();
+		num += get_part2();
+		std::cout << "ModuleA::func():" << num << std::endl;
 		// name_b::C c{};
 	}
 }

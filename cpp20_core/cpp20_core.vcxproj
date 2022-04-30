@@ -144,6 +144,10 @@
     <ClCompile Include="cpp20_core.cpp" />
     <ClCompile Include="module\ModuleA_impl.cpp" />
     <ClCompile Include="module\ModuleA.ixx" />
+    <ClCompile Include="module\ModuleA_part1.ixx" />
+    <ClCompile Include="module\ModuleA_part1_impl.cpp" />
+    <ClCompile Include="module\ModuleA_part2.ixx" />
+    <ClCompile Include="module\ModuleA_part2_impl.cpp" />
     <ClCompile Include="module\module_main.cpp" />
   </ItemGroup>
   <ItemGroup>
