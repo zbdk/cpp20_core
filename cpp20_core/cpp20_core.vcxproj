@@ -141,6 +141,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="coroutine\coroutine_main.cpp" />
     <ClCompile Include="cpp20_core.cpp" />
     <ClCompile Include="module\ModuleA_impl.cpp" />
     <ClCompile Include="module\ModuleA.ixx" />
@@ -151,6 +152,7 @@
     <ClCompile Include="module\module_main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="coroutine\coroutine_main.h" />
     <ClInclude Include="module\module_main.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
